@@ -1,0 +1,13 @@
+# config file
+
+# User shall provide compiler command path.
+PROJ_COMPILER=/home/lubuntu/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+
+# User shall provide target architecture.
+PROJ_ARCH=amd64
+
+# When cross compiling, user shall provide root path of target headers, etc.
+PROJ_SYSROOT=/home/lubuntu/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+
+# User shall provide project name for executable name.
+PROJ_NAME=helloworld
